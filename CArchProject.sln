@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B9A913C9-A305-4166-9A6C-0133A1D2BA2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CArch.Api", "src\CArch.Api\CArch.Api.csproj", "{2B3B98CE-B92B-4042-AE4C-9F969AECFD7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CArch.Domain", "src\CArch.Domain\CArch.Domain.csproj", "{8C61947E-5F40-4870-B17A-39486B5FB2E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CArch.Application", "src\CArch.Application\CArch.Application.csproj", "{3596AF73-EBD3-43A4-9170-4F08567D3D5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CArch.Infrastructure", "src\CArch.Infrastructure\CArch.Infrastructure.csproj", "{97024151-EC58-4FB5-9BCD-9E20A004883F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CArch.Shared", "src\CArch.Shared\CArch.Shared.csproj", "{7A77C416-86E2-4436-9090-CA8F462DBB32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CArch.Shared.Abstractions", "src\CArch.Shared.Abstractions\CArch.Shared.Abstractions.csproj", "{BAC6411C-39A1-40E7-A8BB-017702A2505A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B3B98CE-B92B-4042-AE4C-9F969AECFD7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B3B98CE-B92B-4042-AE4C-9F969AECFD7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B3B98CE-B92B-4042-AE4C-9F969AECFD7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B3B98CE-B92B-4042-AE4C-9F969AECFD7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C61947E-5F40-4870-B17A-39486B5FB2E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C61947E-5F40-4870-B17A-39486B5FB2E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C61947E-5F40-4870-B17A-39486B5FB2E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C61947E-5F40-4870-B17A-39486B5FB2E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3596AF73-EBD3-43A4-9170-4F08567D3D5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3596AF73-EBD3-43A4-9170-4F08567D3D5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3596AF73-EBD3-43A4-9170-4F08567D3D5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3596AF73-EBD3-43A4-9170-4F08567D3D5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97024151-EC58-4FB5-9BCD-9E20A004883F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97024151-EC58-4FB5-9BCD-9E20A004883F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97024151-EC58-4FB5-9BCD-9E20A004883F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97024151-EC58-4FB5-9BCD-9E20A004883F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A77C416-86E2-4436-9090-CA8F462DBB32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A77C416-86E2-4436-9090-CA8F462DBB32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A77C416-86E2-4436-9090-CA8F462DBB32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A77C416-86E2-4436-9090-CA8F462DBB32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAC6411C-39A1-40E7-A8BB-017702A2505A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAC6411C-39A1-40E7-A8BB-017702A2505A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAC6411C-39A1-40E7-A8BB-017702A2505A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAC6411C-39A1-40E7-A8BB-017702A2505A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2B3B98CE-B92B-4042-AE4C-9F969AECFD7E} = {B9A913C9-A305-4166-9A6C-0133A1D2BA2F}
+		{8C61947E-5F40-4870-B17A-39486B5FB2E6} = {B9A913C9-A305-4166-9A6C-0133A1D2BA2F}
+		{3596AF73-EBD3-43A4-9170-4F08567D3D5E} = {B9A913C9-A305-4166-9A6C-0133A1D2BA2F}
+		{97024151-EC58-4FB5-9BCD-9E20A004883F} = {B9A913C9-A305-4166-9A6C-0133A1D2BA2F}
+		{7A77C416-86E2-4436-9090-CA8F462DBB32} = {B9A913C9-A305-4166-9A6C-0133A1D2BA2F}
+		{BAC6411C-39A1-40E7-A8BB-017702A2505A} = {B9A913C9-A305-4166-9A6C-0133A1D2BA2F}
+	EndGlobalSection
+EndGlobal
